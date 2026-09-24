@@ -1,0 +1,48 @@
+*{
+  margin: 0; padding: 0;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: Proxima-Light;
+  outline: none; border: none;
+}
+@import 'tailwindcss';
+
+@font-face {font-family: Proxima-bold; src: url(../src/assets/fonts/FontsFree-Net-Proxima-Nova-Bold.otf);}
+@font-face {font-family: Proxima-Light; src: url(../src/assets/fonts/FontsFree-Net-Proxima-Nova-Light.otf);}
+
+
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+.contact--form input{
+  padding: 0.5rem 1rem;
+  width: 25rem; height: 3rem;
+  border: 0.1rem #000 solid;
+  background: var(--color-white);
+  box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.1);
+}
+
+.contact--form textarea{
+  padding: 0.5rem 1rem;
+  width: 25rem; height: 10rem;
+  border: 0.1rem #000 solid;
+  background: var(--color-white);
+  box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.1);
+}
+
+.contact--form{padding: 5rem 5rem;}
+
+@media (max-width: 650px) {
+  
+  .contact--form{width: 100% !important;}
+  .contact--form input{width: 100% !important;}
+
+  .contact--form textarea{width: 100% !important;}
+
+  .contact--form{padding: 5rem 2rem;}
+
+}

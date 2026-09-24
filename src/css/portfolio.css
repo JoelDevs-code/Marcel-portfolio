@@ -1,0 +1,62 @@
+*{
+  margin: 0; padding: 0;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: Proxima-Light;
+  outline: none; border: none;
+}
+@import 'tailwindcss';
+
+@font-face {font-family: Proxima-bold; src: url(../src/assets/fonts/FontsFree-Net-Proxima-Nova-Bold.otf);}
+@font-face {font-family: Proxima-Light; src: url(../src/assets/fonts/FontsFree-Net-Proxima-Nova-Light.otf);}
+
+
+
+
+
+
+.portfolio--me-text{width: 40%;}
+
+.portfolio--me-text h2{
+  font-size: 4.5rem;
+  font-weight: bolder;
+  font-family: Proxima-bold;
+  letter-spacing: -4px;
+}
+
+.portfolio--me-text h4{font-size: 2rem;}
+
+.portfolio--me-text span{font-size: 1.2rem;}
+
+
+.portfolio--me-image img{
+  /* transform: rotateY(180deg); */
+  /* position: absolute; */
+  right: 0;  width: 25rem;
+}
+
+.portfolio-x{padding: 5rem 0;}
+
+@media (max-width: 950px) {
+
+  .portfolio-x{padding: 3rem 0;}
+
+  .portfolio-x{
+    /* flex-wrap: wrap !important; */
+    flex-direction: column;
+  }
+
+  .portfolio--me-text{
+    text-align: center;
+    width: 80%;
+  }
+
+}
+
+@media (max-width: 750px) {
+  .portfolio-x{padding: 2rem 0;}
+  
+  .portfolio--me-text h2{font-size: 3rem;}
+  .portfolio--me-text h4{font-size: 1.5rem;}
+  .portfolio--me-text span{font-size: 0.9rem;}
+}

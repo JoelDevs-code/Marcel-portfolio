@@ -1,0 +1,29 @@
+*{
+  margin: 0; padding: 0;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: Proxima-Light;
+  outline: none; border: none;
+}
+@import 'tailwindcss';
+
+@font-face {font-family: Proxima-bold; src: url(../src/assets/fonts/FontsFree-Net-Proxima-Nova-Bold.otf);}
+@font-face {font-family: Proxima-Light; src: url(../src/assets/fonts/FontsFree-Net-Proxima-Nova-Light.otf);}
+
+.project--card{
+  background: #f0f0f0;
+  border-radius: 0.5rem;
+  width: 25rem; height: 20rem;
+  box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.1);
+}
+
+.project--card_img{
+  overflow: hidden;
+  object-fit: cover;
+  width: 100%; height: 15rem;
+  border-radius: 0.5rem;
+}
+
+.project--card_img img{
+  transform: scale(1.5);
+}
