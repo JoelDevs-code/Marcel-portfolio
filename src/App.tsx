@@ -1,8 +1,6 @@
 import { useEffect} from "react";
 
-import AOS from "aos";
-import "aos/dist/aos.css";
-
+import AOS from "aos"; import "aos/dist/aos.css";
 
 import { Routes, Route } from 'react-router-dom';
 import './App.css'; import './dist/style.css';
@@ -11,26 +9,21 @@ import '../src/assets/fonts/flaticon/css/all.min.css';
 import './assets/fonts/flaticon/icomoon/style.css';
 
 
-import Resume from "./pages/resume";
-import About from './pages/about';
-import Contact from './pages/contact';
-import Portfolio from './pages/portfolio';
+import Resume from "./pages/resume"; import About from './pages/about';
+import Contact from './pages/contact'; import Portfolio from './pages/portfolio';
 
-import Header from "../src/components/header"
-import Project from "../src/components/project"
-import Footer from "../src/components/footer"
-import me from "../src/assets/images/me.jfif"
+import Header from "../src/components/header"; import Project from "../src/components/project";
+import Footer from "../src/components/footer"; import me from "../src/assets/images/me.jfif";
 
-import ai_icon from "../src/assets/images/AI.ico"
-import ps_icon from "../src/assets/images/ps.ico"
-import fg_icon from "../src/assets/images/e.jpg"
+import ai_icon from "../src/assets/images/AI.ico";
+import ps_icon from "../src/assets/images/ps.ico";
+import fg_icon from "../src/assets/images/e.jpg";
 
 
 
 function App() {
 
   useEffect(() => {AOS.init({duration: 1000, once: true, easing: "ease-in-out",});}, []);
-
 
   const design_icon = [{name: ai_icon},{name: ps_icon},{name:fg_icon}];
 
@@ -63,7 +56,6 @@ function App() {
       <main className="main--web--section" id='main' aria-label='portolio web'>
         <section className="main--web--section--wrapper w-full px-0 py-0 h-full">
           <Header />
-          
           <Routes>
             <Route path='about' element={<About />}></Route>
             <Route path='contact' element={<Contact />}></Route>
@@ -73,8 +65,7 @@ function App() {
             <Route path='' element={
 
               <>
-
-                <div className="hero--section bg-white w-full shadow" id='hero_section'>
+               <div className="hero--section bg-white w-full shadow" id='hero_section'>
                   <div className="hero--section-container w-full items-center gap-1 flex justify-between">
                 
                     <div className="hero--caption-one flex flex-col gap-1">
@@ -165,7 +156,6 @@ function App() {
             }>
             </Route>
           </Routes>
-
           <Footer />
         </section>
       </main>

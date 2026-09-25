@@ -23,10 +23,9 @@ function header() {
   ]
 
   const social_links = [
-    {name: "fab fa-x-twitter fa-shake", url: "twitter"},
-    {name: "fab fa-linkedin-in", url: "linkedin"},
-    {name: "fab fa-facebook-f", url: "twitter"},
-    {name: "fab fa-instagram", url: "twitter"},
+    {name: "fab fa-x-twitter fa-shake", url: "https://x.com/JoeMacex"},
+    {name: "fab fa-linkedin-in", url: "https://www.linkedin.com/in/joel-bulus-177712293/"},
+    {name: "fab fa-behance", url: "https://www.behance.net/joelbulus_iDesign"},
   ]
 
   const [menuOpen, setMenuOpen] = useState(false);
@@ -54,7 +53,7 @@ function header() {
               {
                 social_links.map((soclink, index)=>(
                   <li key={index} className='inline-block text-xl px-1 text-white hover:text-gray-50'>
-                    <a href=''><i className={soclink.name}></i></a>
+                    <a href={soclink.url} target="_blank"><i className={soclink.name}></i></a>
                   </li>
                 ))
               }
