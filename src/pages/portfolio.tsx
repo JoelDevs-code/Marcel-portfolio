@@ -61,7 +61,7 @@ function portfolio() {
     },
     {
       name: "Nigeria Railway Coperation", 
-      url:"https://www.behance.net/gallery/255425691/Social-media-Design-Carousel", target: "_blank",
+      url:"", target: "_blank",
       img: nrc, service: "NRC Landing Page"
     },
   ]
