@@ -27,7 +27,7 @@ function about() {
 
           <div className='flex justify-evenly bg-white items-center'>
             <div className="about--me-text py-1" data-aos="fade-right">
-              <h2>about me</h2><h4>I'm a UI Designer and a React dev.</h4>
+              <h2>about me</h2><h4>I'm a UI Designer and a Front-end Dev.</h4>
                 <span>
                   i enjoy turning complex problems into simple solution, I'm
                   a disciple and follower of christ i love music and when i'm not dragging pixels 
@@ -51,7 +51,7 @@ function about() {
           <div className="chart--section w-full" id='projects'>
             <div className="chart--setcion--container w-full py-2 flex flex-col gap-4">
               <div className="chart--setcion--header flex items-center gap-1 w-full justify-evenly" data-aos="fade-up">
-                <hr /><span className='text-gray-400'>MY SKILLS</span><hr />
+                <hr /><span className='text-gray-400'>MY SKILL RATINGS</span><hr />
               </div>
               <div className='chart-x-col flex justify-center py-3' data-aos="fade-up"><Charts /></div>
             </div>

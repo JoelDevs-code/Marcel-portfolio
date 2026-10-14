@@ -26,16 +26,16 @@ function contact() {
                 <span>Get in touch with me via social media or send me an email.</span>
               </div>
               <div className="social--contact--btn flex items-center gap-2" data-aos="fade-up">
-                <a href="">
+                <a href="https://x.com/JoeMacex">
                   <button><i className='fab fa-x-twitter fa-beat'></i></button>
                 </a>
-                <a href="">
-                  <button><i className='fab fa-facebook-f fa-beat'></i></button>
+                <a href="https://www.behance.net/joelbulus_iDesign">
+                  <button><i className='fab fa-behance fa-beat'></i></button>
                 </a>
-                <a href="">
+                {/* <a href="">
                   <button><i className='fab fa-instagram fa-beat'></i></button>
-                </a>
-                <a href="">
+                </a> */}
+                <a href="https://www.linkedin.com/in/joel-bulus-177712293/">
                   <button><i className='fab fa-linkedin-in fa-beat'></i></button>
                 </a>
               </div>

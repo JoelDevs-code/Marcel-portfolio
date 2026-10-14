@@ -343,6 +343,7 @@ body{
   .hero--caption-icons {
     width: 13rem;
     height: 3.5rem;
+    font-size: 0.9rem;
     padding: 0.7rem;
     justify-content: space-evenly;
   }
@@ -507,6 +508,7 @@ body{
 
 @media (max-width: 750px) {
   .hero--main--image{display: none !important;}
+  .hero--caption-icons{font-size: 0.8rem;}
 }   
 @media (max-width: 655px) {
 
@@ -549,6 +551,8 @@ body{
     font-size: 1rem;
     line-height: 1.4;
   }
+
+  .hero--caption-icons{font-size: 0.8rem;}
 
   /* .hero--main--image img {width: 15rem; max-width: 75vw;} */
 

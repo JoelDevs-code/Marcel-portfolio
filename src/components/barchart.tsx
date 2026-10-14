@@ -1,9 +1,11 @@
 import {BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell} from "recharts";
 import "../dist/style.css"; import "../App.css"; import "../css/about.css"
 const data = [
-  { skills: "UI Design", percentage: 950, color: "black" },
-  { skills: "Coding (React.js)", percentage: 700, color: "gray" },
-  { skills: "Eating", percentage: 300, color: "lightgray" }
+  { skills: "HTML & CSS", percentage: 950, color: "maroon" },
+  { skills: "Javascript", percentage: 600, color: "yellow" },
+  { skills: "React.JS", percentage: 700, color: "lightblue" },
+  { skills: "Figma", percentage: 750, color: "navy" },
+  { skills: "Adobe (AI & PS)", percentage: 800, color: "red"},
 ];
 function chart() {
  return (

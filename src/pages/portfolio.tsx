@@ -9,11 +9,17 @@ import '../assets/fonts/flaticon/icomoon/style.css'
 
 import project_img from '../assets/images/proj.png';
 
+import Resume from "/Resume.pdf"
+
 // importing project images
 import sandwich_ai from "../assets/images/projects-img/p4.png"
 import handitt_car from "../assets/images/projects-img/p1.jpg"
 import handitt_soc from "../assets/images/projects-img/p2.jpg"
 import marcel_logo from "../assets/images/projects-img/p3.jpg"
+import studyland from "../assets/images/projects-img/xcvb.jpg"
+import sandwichlp from "../assets/images/projects-img/xcvf.jpg"
+import folafilms from "../assets/images/projects-img/fola.jpg"
+import nrc from "../assets/images/projects-img/train-landing.jpg"
 
 function portfolio() {
 
@@ -30,12 +36,33 @@ function portfolio() {
     },
     {
       name: "Sandwich AI", 
-      url:"https://sandwichai.co/", target: "_blank",
-      img: sandwich_ai, service: "Landing Page"},
+      url:"https://sandwich-two.vercel.app/", target: "_blank",
+      img: sandwich_ai, service: "Landing Page"
+    },
     {
       name: "Handitt_ca", 
       url:"https://www.behance.net/gallery/255425691/Social-media-Design-Carousel", 
       img: handitt_car, service: "Social media carousel"
+    },
+    {
+      name: "Sandwich AI", 
+      url:"https://sandwich-one-phi.vercel.app/", target: "_blank",
+      img: sandwichlp, service: "Sandwich_ai Landing page"
+    },
+    {
+      name: "StudyHub",
+      url:"https://studyhub-landing-page-five.vercel.app/", target: "_blank",
+      img: studyland, service: "StudyHub Landing Page"
+    },
+    {
+      name: "Fola Films",
+      url:"https://www.behance.net/gallery/257087975/Fola-Films", target: "_blank",
+      img: folafilms, service: "Brand Design / Visual Identity"
+    },
+    {
+      name: "Nigeria Railway Coperation", 
+      url:"https://www.behance.net/gallery/255425691/Social-media-Design-Carousel", target: "_blank",
+      img: nrc, service: "NRC Landing Page"
     },
   ]
 
@@ -84,10 +111,21 @@ function portfolio() {
                     </div>
                   </div>
                 </div>
-
               </div>
              </div>
+          </div>
 
+          <div className='resume-x h-full flex justify-evenly bg-white items-center py-3'>
+            <div className="resume--me-text py-5">
+              <h2>Resume</h2>
+              <h4><span>iDesign,</span> <span>{'<iCode />'}</span></h4>
+                <a href="/Resume.pdf" download={Resume}>
+                  <button className='flex items-center gap-1 cursor-pointer border my-2 px-1 py-1'>
+                    <span>Download resume</span><i className='fa fa-download'></i>
+                  </button>
+                </a>
+            </div>
+            <iframe className='resume-frame' src="/Resume.pdf#toolbar=0" width="400px" ></iframe>
           </div>
         </div>
       </section>

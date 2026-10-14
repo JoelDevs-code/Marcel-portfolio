@@ -118,7 +118,7 @@ function App() {
                 <div className="about--section bg-white shadow w-full" id='about'>
                   <div className="about--setcion--container w-full flex items-center justify-evenly">
                     <div className="about--me-text py-1" data-aos="fade-right">
-                      <h2>about me</h2><h4>I'm a UI Designer and a React dev.</h4>
+                      <h2>about me</h2><h4>I'm a UI Designer and a Front-end Dev.</h4>
                       <span>
                         i enjoy turning complex problems into simple solution, I'm
                         a disciple and follower of christ i love music and when i'm not dragging pixels 

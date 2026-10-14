@@ -10,10 +10,10 @@ function footer() {
 
     const nav_links = [
     {text: "Home", url: ""},
-    {text: "About", url: "about"}, 
-    {text: "Portfolio", url: "../home.tsx"},
-    {text: "Resume", url: "../home.tsx"},
-    {text: "Contact", url: "contact"},
+    {text: "About", url: "/about"}, 
+    {text: "Portfolio", url: "/portfolio"},
+    // {text: "Resume", url: "/resume"},
+    {text: "Contact", url: "/contact"},
   ]
 
   return (

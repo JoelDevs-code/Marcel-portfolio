@@ -18,7 +18,7 @@ function header() {
     {text: "Home", url: "/", target: "_self"}, 
     {text: "About", url: "about", target: "_self"}, 
     {text: "Portfolio", url: "portfolio", target: "_self"},
-    {text: "Resume", url: "resume", target: "_blank"},
+    // {text: "Resume", url: "resume", target: "_blank"},
     {text: "Contact", url: "contact", target: "_self"},
   ]
 
